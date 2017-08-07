@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNGSuite">
+	<test name="sendemail">
+		<classes>
+		
+			<class name="com.ehking.module.business.SendEmail"/>
+			<class name="com.ehking.module.business.ReceiveEmail"/>
+			
+		</classes>
+	</test>
+</suite>
